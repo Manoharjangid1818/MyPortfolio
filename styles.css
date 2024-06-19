@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+header {
+    background: #008080;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    .profile-picture {
+        position: absolute;
+        top: 5%; /* Adjust top position as needed */
+        left: 20%x; /* Adjust left position as needed */
+    }
+    
+    .profile-picture img {
+        width: 150px; /* Adjust size as needed */
+        height: 150px; /* Adjust size as needed */
+        border-radius: 50%; /* Makes the image round */
+        border: 3px solid #FFFFFF; /* Optional border */
+    }
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+header a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #008080;
+    border-bottom: 2px solid grey;
+    padding-bottom: 0.5rem;
+}
+
+.project, .experience {
+    background: #F3F3F3;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3, .experience h3 {
+    margin-top: 0;
+    color: #FF8C00;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #EDEDED;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #FFA500;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
